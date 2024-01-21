@@ -42,11 +42,11 @@ export default defineConfig({
           { text: 'KillAura', link: '/configuration/killaura'},
           { text: 'Aimbot', link: '/configuration/aimbot'},
           { text: 'AutoClicker', link: '/configuration/autoclicker'},
-          { text: 'Reach', link: '/configuration/Reach'},
-          { text: 'NoFall', link: '/configuration/NoFall'},
-          { text: 'Spammer', link: '/configuration/Spammer'},
-          { text: 'Timer', link: '/configuration/Timer'},
-          { text: 'Velocity', link: '/configuration/Velocity'},
+          { text: 'Reach', link: '/configuration/reach'},
+          { text: 'NoFall', link: '/configuration/nofall'},
+          { text: 'Spammer', link: '/configuration/spammer'},
+          { text: 'Timer', link: '/configuration/timer'},
+          { text: 'Velocity', link: '/configuration/velocity'},
         ]
       },
       {
