@@ -2,6 +2,7 @@ import { defineConfig } from 'vitepress'
 
 export default defineConfig({
   lastUpdated: true,
+  base: "/docs/",
   title: "NeoAntiCheat | Powerful AntiCheat Solutions",
   description: "One of the most powerful AntiCheat solutions for Nukkit",
   head: [["link", { rel: "icon", href: "/logo.png" }]],
