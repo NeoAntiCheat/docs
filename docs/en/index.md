@@ -81,11 +81,11 @@ features:
     #bd34fe,
     #47caff
   );
-  background-size: 300%;
-  filter: blur(40px);
+  background-size: 400%;
+  filter: blur(0px);
   opacity: 0.8;
   animation: gradient 6s ease-in-out infinite;
-  transition: opacity 0.5s;
+  transition: opacity 0.5s, filter 0.5s;
 }
 
 .VPHero .image-container:hover .image-bg {
@@ -113,15 +113,22 @@ features:
   transform: translateY(-5px);
 }
 
-@media (min-width: 640px) {
+@media (max-width: 639px) {
   .VPHero .image-bg {
-    filter: blur(56px);
+    filter: blur(48px);
+    background-size: 200%;
+  }
+}
+
+@media (min-width: 640px) and (max-width: 959px) {
+  .VPHero .image-bg {
+    filter: blur(48px);
   }
 }
 
 @media (min-width: 960px) {
   .VPHero .image-bg {
-    filter: blur(72px);
+    filter: blur(48px);
   }
 }
 </style>
